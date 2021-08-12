@@ -1,0 +1,39 @@
+.hero::before {
+  background: url("../../images/homeCover.png") no-repeat center center/cover ;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 440px;
+  z-index: -1;
+  opacity: 0.94;
+}
+
+
+.hero {
+  color: white;
+}
+
+.heroTextBox{
+    position: relative;
+    width: 390px;
+    left: 116px;
+    top: 221px;
+}
+
+.heroTitle {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 47px;
+}
+̥
+.heroTag {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+}

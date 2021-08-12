@@ -1,0 +1,28 @@
+.cont{
+    margin-top: 38vh;
+    position: sticky;
+    top: 8vh;
+    /* border: 2px solid black; */
+    z-index: 99;
+    background-color: white;
+    
+}
+
+.pageSelect{
+    /* border: 2px solid green; */
+    border-bottom: 1px solid #E0E0E0;
+    width: 85%;
+    margin: auto;
+}
+
+
+.pageChoice{
+    border-bottom: 1px solid #000000;
+    text-decoration: none;
+    color: black;
+}
+
+.article{
+    text-decoration: none;
+    color: gray;
+}

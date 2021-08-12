@@ -1,0 +1,12 @@
+.buttons {
+  margin-left: 2%;
+  width: 133px;
+  height: 36px;
+}
+
+.buttons button {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+}
