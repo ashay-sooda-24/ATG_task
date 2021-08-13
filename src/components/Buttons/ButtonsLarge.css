@@ -1,0 +1,35 @@
+.btncontainer {
+  /* border: 2px solid red; */
+  padding: 0;
+}
+
+.btn {
+  border: 0.7px solid #a9aeb8;
+  width: 100%;
+  margin: 26px 0 5px 0;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  color: rgba(229, 97, 53, 1);
+}
+
+.btn--orange {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140.4%;
+  text-align: center;
+  color: rgba(229, 97, 53, 1);
+}
+
+.btn--green {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 140.4%;
+  text-align: center;
+  color: rgba(2, 184, 117, 1);
+}

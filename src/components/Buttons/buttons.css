@@ -10,3 +10,17 @@
   outline: none;
   border: none;
 }
+
+.w60{
+  width: 69px !important;
+}
+
+.w25{
+  /* border: 2px solid brown !important; */
+  width: 60px !important;
+  
+}
+
+.b14{
+  border-radius: 14px;
+}
