@@ -33,3 +33,27 @@
   text-align: center;
   color: rgba(2, 184, 117, 1);
 }
+
+.blue {
+  background-color: rgba(47, 108, 229, 1);
+  color: rgba(255, 255, 255, 1);
+  height: 40px;
+}
+
+.br2 {
+  border-radius: 20px;
+}
+
+.sign {
+  height: 34px;
+  background: #ffffff;
+  border: 0.6px solid #d9d9db;
+  border-radius: 2px;
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000000;
+  margin-top: 2%;
+}

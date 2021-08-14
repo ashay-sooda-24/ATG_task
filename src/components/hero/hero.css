@@ -4,7 +4,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  /* width: 100%; */
+  width: 100vw;
   height: 440px;
   z-index: -1;
   opacity: 0.94;
@@ -13,6 +14,7 @@
 
 .hero {
   color: white;
+  /* max-width: 100vw; */
 }
 
 .heroTextBox{

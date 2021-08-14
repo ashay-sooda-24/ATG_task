@@ -1,0 +1,11 @@
+.modalContainer{
+    /* border: 2px solid green; */
+    margin-top: 24px;
+}
+
+
+
+.modalContainerRight{
+    /* border: 2px solid brown; */
+    flex: 1;
+}

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Modal } from 'react-bootstrap';
+import ModalBody from './ModalBody';
+import ModalTitle from './ModalTitle';
 import './myModal.css'
 
 export default function MyModal(props) {
@@ -9,20 +11,16 @@ export default function MyModal(props) {
             {...props}
             size="lg"
             aria-labelledby="contained-modal-title-vcenter"
-            centered
+            centered 
         >
-            <Modal.Header closeButton>
-                <Modal.Title id="contained-modal-title-vcenter">
-                    Modal heading
+            <Modal.Header className="modal1" closeButton>
+                <Modal.Title id="contained-modal-title-vcenter" className="modal2">
+                    Let's learn, share & inspire each other with our passion for computer engineering. Sign up now 🤘
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <h4>Centered Modal</h4>
-                <p>
-                    Cras mattis consectetur purus sit amet fermentum. Cras justo odio,
-                    dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac
-                    consectetur ac, vestibulum at eros.
-                </p>
+                <ModalTitle title="Create Account" util="Already have a account?" linker="Sign In" linkerPath={'/signin'}/>    
+                <ModalBody/>
             </Modal.Body>
             {/* <Modal.Footer>
                 <Button onClick={props.onHide}>Close</Button>

@@ -13,8 +13,8 @@ export default function Buttons({ source, text, btnStyle, width, borderRadius, m
             {
                 btnStyle ? <button className={`${width} ${borderRadius}`}>{text} <img src={source} alt="" /></button> : <button onClick={() => setModalShow(true)} style={{ color: "white", backgroundColor: "#2F6CE5" }}><img src={source} className="me-2" alt="" />{text}</button>
             }
-            <MyModal show={modalShow}
-                onHide={() => setModalShow(false)} />
+            <MyModal show={modalShow} 
+                onHide={() => setModalShow(false)}/>
 
 
         </div>

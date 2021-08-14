@@ -1,0 +1,21 @@
+.modalTitle {
+  /* border: 2px solid red; */
+}
+
+.modalTitleLeft {
+  /* border: 2px solid green; */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.modalTitleRight {
+  /* border: 2px solid yellow; */
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 17px;
+  text-align: right;
+}

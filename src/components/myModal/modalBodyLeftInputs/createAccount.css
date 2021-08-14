@@ -1,0 +1,14 @@
+.modalContainerLeft{
+    /* border: 2px solid red; */
+}
+
+.modalContainerLeft input{
+    height: 46px;
+}
+
+.modalContainerLeft input:focus{
+    /* border: rgba(217, 217, 219, 1); */
+    /* outline: rgba(217, 217, 219, 1); */
+    border: none;
+    outline: none;
+}
