@@ -10,9 +10,9 @@ export default function Post({ postImage, postType, postTitle, postDesc, profile
     return (
         <div className="post mt-3">
             <Card>
-                <Card.Img variant="top" src={postImage} />
+                <Card.Img  variant="top" src={postImage} />
                 <Card.Body className="d-flex flex-column">
-                    <div className="container position-absolute">
+                    <div id="myPostType" className="container position-absolute">
                         <img src={postType} alt="" />
                     </div>
                     <div className="title d-flex align-items-center justify-content-between">
@@ -28,10 +28,15 @@ export default function Post({ postImage, postType, postTitle, postDesc, profile
                         {postDesc}
                     </div>
 
+
+
+                    <div className="mydiv d-flex align-items-center">
+
+                    
                     <div className="container-fluid detail d-flex align-items-center">
-                        <div className="left d-flex align-items-center">
-                            <img src={profilePic} alt="" />
-                            <div className="username">
+                        <div className="Pleft d-flex align-items-center">
+                            <img id="profilePic" src={profilePic} alt="" />
+                            <div id="userName" className="username">
                                 {username}
                             </div>
                         </div>
@@ -41,13 +46,16 @@ export default function Post({ postImage, postType, postTitle, postDesc, profile
                                     <img src={views} alt="" />
                                     1.4k views
                                 </div>
-                                <div className="share bg-gray d-flex justify-content-center align-items-center">
+                                {/* <div className="share bg-gray d-flex justify-content-center align-items-center">
                                     <img src={share} alt="" />
-                                </div>
+                                </div> */}
                             </div>
-
-
                         </div>
+                        
+                    </div>
+                    <div className="share bg-gray d-flex justify-content-center align-items-center">
+                            <img src={share} alt="" />
+                    </div>
                     </div>
 
                 </Card.Body>

@@ -19,3 +19,9 @@
   line-height: 17px;
   text-align: right;
 }
+
+@media only screen and (max-width: 900px){
+  .modalTitleRight{
+    display: none !important;
+  }
+}

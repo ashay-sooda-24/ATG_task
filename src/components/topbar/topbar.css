@@ -4,6 +4,7 @@
   z-index: 99;
   /* border: 2px solid green; */
   width: 100vw;
+  /* overflow: hidden; */
 }
 
 .topbarLogo {
@@ -38,4 +39,57 @@ input:focus {
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
+  /* color: red; */
+}
+
+.topbarCreateImgContainer{
+  /* border: 2px solid red; */
+  display: none !important;
+}
+
+@media only screen and (max-width: 900px){
+
+  .topbar{
+    height: 24px;
+    width: 100vw;
+    /* border: 2px solid red; */
+  }
+
+  .topbarLogo{
+    display: none;
+  }
+
+  .topbarSearch{
+    display: none !important;
+    /* border: 2px solid red; */
+  }
+  .topbarSearch input{
+    display: none;
+  }
+  #topbarSearchImg{
+    display: none;
+  }
+
+  .topbarCreate{
+    /* border: 2px solid brown; */
+    /* position: absolute; */
+    /* right: 20px; */
+    width: fit-content;
+    padding: 0;
+    margin-right: 7px;
+  }
+
+  #topbarCreateTitle{
+    display: none;
+  }
+  #topbarCreateImg{
+    display: none;
+  }
+
+  .topbarCreateImgContainer{
+    display: flex !important;
+    /* border: 2px solid red; */
+    margin-right: 0px;
+  }
+  
 }

@@ -11,6 +11,7 @@ import Hero from "./components/hero/Hero";
 import PageSelect from "./components/pageSelect/PageSelect";
 import HomeP from "./pages/homeP/HomeP.jsx"
 import Aritcle from "./pages/Article/Aritcle";
+import penIcon from './images/penIcon.png'
 
 function App() {
   return (
@@ -20,11 +21,12 @@ function App() {
         <Hero className="hero"/>
         <PageSelect className="pageselect"/>
         <Switch>
-          <Route path='/' exact component={HomeP} />
+          <Route path='/'  component={HomeP} />
           <Route path='/article' component={Aritcle} />
         </Switch>
       </Router>
 
+      <img src={penIcon} id="pen" alt=""/>
     </>
   );
 }

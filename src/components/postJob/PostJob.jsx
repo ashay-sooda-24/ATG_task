@@ -16,16 +16,16 @@ export default function PostJob({ postImage, postType, postTitle, profilePic, us
             <Card>
                 <Card.Img variant="top" src={postImage} />
                 <Card.Body className="d-flex flex-column">
-                    <div className="container">
+                    <div id="myPostType" className="container position-absolute">
                         <img src={postType} alt="" />
                     </div>
                     <div className="title d-flex align-items-center justify-content-between">
-                        <div className="container JpostTitle">
+                        <div className="container JpostTitle p-0">
                             {postTitle}
                         </div>
                         <div className="postOptions">
                             <img src={PostOptions} />
-                            
+
                         </div>
 
                     </div>
@@ -51,28 +51,31 @@ export default function PostJob({ postImage, postType, postTitle, profilePic, us
 
                     <ButtonsLarge
                         text={btnTxt}
-                        btnColor={btnColor} />
-
-                    <div className="container-fluid detail d-flex align-items-center">
-                        <div className="left d-flex align-items-center">
-                            <img src={profilePic} alt="" />
-                            <div className="username">
-                                {username}
+                        btnColor={btnColor} onclicks={false}/>
+                    <div className="mydiv d-flex align-items-center">
+                        <div className="container-fluid detail d-flex align-items-center">
+                            <div className="Jleft d-flex align-items-center">
+                                <img id="profilePic" src={profilePic} alt="" />
+                                <div id="userName" className="username">
+                                    {username}
+                                </div>
+                            </div>
+                            <div className="postDetails container-fluid d-flex align-items-center justify-content-end">
+                                <div className="right d-flex align-items-center">
+                                    <div className="postViews">
+                                        <img src={views} alt="" />
+                                        1.4k views
+                                    </div>
+                                    {/* <div className="share bg-gray d-flex justify-content-center align-items-center">
+                                    <img src={share} alt="" />
+                                </div> */}
+                                </div>
                             </div>
                         </div>
-                        <div className="postDetails container-fluid d-flex align-items-center justify-content-end">
-                            <div className="right d-flex align-items-center">
-                                <div className="postViews">
-                                    <img src={views} alt="" />
-                                    1.4k views
-                                </div>
-                                <div className="share bg-gray d-flex justify-content-center align-items-center">
-                                    <img src={share} alt="" />
-                                </div>
-                            </div>
+                        <div className="share bg-gray d-flex justify-content-center align-items-center">
+                            <img src={share} alt="" />
                         </div>
                     </div>
-
 
 
                 </Card.Body>

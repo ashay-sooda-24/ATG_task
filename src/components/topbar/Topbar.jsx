@@ -9,6 +9,10 @@ import {
     Link
   } from "react-router-dom";
 import './topbar.css'
+import mobileIcon1 from '../../images/mobileIcon1.png'
+import mobileIcon2 from '../../images/mobileIcon2.png'
+import mobileIcon3 from '../../images/mobileIcon3.png'
+
 
 export default function Topbar() {
     return (
@@ -19,12 +23,18 @@ export default function Topbar() {
                     </Link>
                 </div>
                 <div className="container topbarSearch d-flex align-items-center">
-                    <img src={searchIcon} alt="" />
+                    <img id="topbarSearchImg" src={searchIcon} alt="" />
                     <input type="text" placeholder="Search for your favourite groups in ATG" />
                 </div>
                 <div className="container topbarCreate d-flex align-items-center">
-                    Create account. It's free!
-                    <img src={dropDownIcon} alt="" />
+                    <span id="topbarCreateTitle">Create account. It's free!</span>
+                    <img id="topbarCreateImg" src={dropDownIcon} alt="" />
+                    
+                    <div className="topbarCreateImgContainer d-flex">
+                        <img src={mobileIcon1} alt="" />
+                        <img className="mx-3" src={mobileIcon2} alt="" />
+                        <img src={mobileIcon3} alt="" /> 
+                    </div>
                 </div>
             </div>
     )

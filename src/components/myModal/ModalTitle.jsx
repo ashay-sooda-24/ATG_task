@@ -9,7 +9,7 @@ export default function ModalTitle({title, util,linker,linkerPath}) {
                   {title}
               </div>
               <div className="modalTitleRight d-flex align-items-center">
-                  {util} <Link href={linkerPath}>{linker}</Link>
+                  {util} <Link to={linkerPath}>{linker}</Link>
               </div>
         </div>
     )

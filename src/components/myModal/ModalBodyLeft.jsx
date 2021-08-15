@@ -7,7 +7,7 @@ import SignIn from './modalBodyLeftInputs/SignIn'
 export default function ModalBodyLeftt() {
     return (
         <>
-            <CreateAccount />
+            {/* <CreateAccount /> */}
             {/* <Router> */}
                 {/* <Switch> */}
                     {/* <Route path='/signin' exact component={SignIn}> */}

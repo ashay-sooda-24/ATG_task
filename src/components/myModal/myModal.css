@@ -29,3 +29,56 @@
   text-align: center;
   color: #008a45;
 }
+
+@media only screen and (max-width: 900px){
+  .modal-content{
+    border: 2px solid red;
+    position: absolute;
+    top: 32vh;
+    border-radius: 8px 8px 0px 0px;
+    
+  }
+
+  .btn-close {
+    display: flex;
+    position: absolute;
+    z-index: 99;
+    background: transparent url(../../images/closeIconMobile.png) center/cover
+      no-repeat;
+    /* border: 2px solid red; */
+    height: 10px;
+    width: 10px;
+    top: 6vh;
+    left: 55vh;
+    margin: -1.5rem 0.5rem -15px  !important;
+    cursor: pointer;
+  }
+
+  .modal2{
+    display: none !important;
+  }
+
+  .modal1{
+    position: absolute;
+  }
+  /* .modal1{
+    display: none;
+  } */
+}
+
+@media only screen and (max-width: 450px){
+
+  .btn-close {
+    top: 6vh;
+    left: 44vh;
+  }
+}
+
+
+@media only screen and (max-width: 350px){
+
+  .btn-close {
+    top: 33vh;
+    left: 8vh;
+  }
+}

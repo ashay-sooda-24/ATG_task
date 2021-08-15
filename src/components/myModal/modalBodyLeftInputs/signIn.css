@@ -1,0 +1,62 @@
+.modalContainerLeft {
+  /* border: 2px solid red; */
+}
+
+.modalContainerLeft input {
+  height: 46px;
+}
+
+.modalContainerLeft input:focus {
+  /* border: rgba(217, 217, 219, 1); */
+  /* outline: rgba(217, 217, 219, 1); */
+  border: none;
+  outline: none;
+}
+
+.myS {
+  /* border: 2px solid red; */
+  width: 160%;
+}
+
+.forgotPass {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height, or 133% */
+
+  text-align: center;
+  letter-spacing: -0.008em;
+}
+
+.mobileSignIn span{
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .myS {
+    width: 100%;
+  }
+
+  .modalContainerLeft{
+    border: 2px solid red;
+    width:140%;
+  }
+
+  .modalContainerRight{
+    border: 2px solid yellow;
+  }
+
+  .mobileSignIn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mobileSignIn span{
+    display: flex;
+  }
+
+
+
+ 
+}

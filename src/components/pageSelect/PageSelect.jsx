@@ -25,8 +25,8 @@ export default function PageSelect() {
                             >
                                 {/* <Link to="/" className="pageChoice">All Posts(32)</Link>
                             <Link className="article" to="/article">Article</Link> */}
-                                <Nav.Link href="/" >All Posts(32)</Nav.Link>
-                                <Nav.Link href="/article">Article</Nav.Link>
+                                <Nav.Link href="#" >All Posts(32)</Nav.Link>
+                                <Nav.Link href="#">Article</Nav.Link>
                                 <Nav.Link href="#action3">Even</Nav.Link>
                                 <Nav.Link href="#action4">Education</Nav.Link>
                                 <Nav.Link href="#action5">Job</Nav.Link>
@@ -39,6 +39,11 @@ export default function PageSelect() {
                         </Navbar.Collapse>
                     </Navbar>
                 </Container>
+            </Container>
+
+            <Container className="cont2 d-flex py-3 justify-content-between align-items-center">
+                <span className="cont2Left">Posts(368) </span>
+                <span className="cont2Right"><Buttons source={dropdown} text="Filter:All" btnStyle={true} color="black" /> </span>
             </Container>
         </>
     )

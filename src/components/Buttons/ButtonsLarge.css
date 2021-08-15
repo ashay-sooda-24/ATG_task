@@ -57,3 +57,22 @@
   color: #000000;
   margin-top: 2%;
 }
+
+.sign2 {
+  border: 0.8px solid #ffffff;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  width: 100%;
+  height: 100% ;
+  margin: 0 0 0 0;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+}
+.sign2:hover{
+  color: gray ;
+}
+
+
