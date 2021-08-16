@@ -10,11 +10,11 @@ export default function Hero() {
             <div className="mt-4 heroNav container-fluid d-flex align-items-center justify-content-between">
                 <img id="backArrowimg" src={backArrow} alt="" />
                 <div className="heroBtnContainer">
-                <ButtonsLarge
+                    <ButtonsLarge
                         text="Join Group"
-                        Color={"sign2"} 
+                        Color={"sign2"}
                         onclicks={true}
-                        modalPath='/create'/>
+                        modalPath='/create' />
                 </div>
             </div>
 

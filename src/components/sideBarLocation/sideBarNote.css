@@ -1,7 +1,3 @@
-.sideNote {
-  /* border: 2px solid red; */
-}
-
 .sideNote img {
   object-fit: contain;
 }
@@ -16,6 +12,6 @@
   opacity: 0.5;
 }
 
-#close{
+#close {
   cursor: pointer;
 }

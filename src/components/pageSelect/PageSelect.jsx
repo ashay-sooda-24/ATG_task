@@ -1,14 +1,13 @@
 import React from 'react'
 import './pageSelect.css'
-import { Navbar, Container, Nav, NavDropdown, Button, Form, FormControl } from 'react-bootstrap';
+import { Navbar, Container, Nav } from 'react-bootstrap';
 import Buttons from '../Buttons/Buttons';
 import dropdown from '../../images/dropDownIcon.png'
 import joinGroupIcon from '../../images/joinGroupIcon.png'
-import { Link } from 'react-router-dom';
 
 export default function PageSelect() {
 
-    
+
 
     return (
         <>
@@ -23,8 +22,6 @@ export default function PageSelect() {
                                 activeKey="/"
 
                             >
-                                {/* <Link to="/" className="pageChoice">All Posts(32)</Link>
-                            <Link className="article" to="/article">Article</Link> */}
                                 <Nav.Link href="#" >All Posts(32)</Nav.Link>
                                 <Nav.Link href="#">Article</Nav.Link>
                                 <Nav.Link href="#action3">Even</Nav.Link>
@@ -33,8 +30,8 @@ export default function PageSelect() {
                             </Nav>
                             <Navbar.Collapse className="justify-content-end">
                                 <Buttons source={dropdown} text="Write a Post" btnStyle={true} color="black" />
-                                <Buttons  source={joinGroupIcon} text="Join Group" btnStyle={false}/>
-                                
+                                <Buttons source={joinGroupIcon} text="Join Group" btnStyle={false} />
+
                             </Navbar.Collapse>
                         </Navbar.Collapse>
                     </Navbar>

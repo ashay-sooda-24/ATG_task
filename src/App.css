@@ -2,7 +2,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "IBM Plex Sans", sans-serif;
-  /* overflow-x: hidden; */
 }
 
 .topbar {
@@ -13,16 +12,6 @@
 #pen{
   display: none;
 }
-
-/* .hero{
-    position: sticky;
-    top: 72px;
-    z-index: 999;
-} */
-
-/* .pageselpageselectect{
-    border: 2px solid darkblue;
-} */
 
 @media only screen and (max-width: 900px) {
   #pen{

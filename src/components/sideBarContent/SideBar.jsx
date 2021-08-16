@@ -7,9 +7,9 @@ import './sidebar.css'
 export default function SideBar() {
     return (
         <div className="sideBar mt-3 px-3">
-            <SideBarLocation/>
-            <SideBarNote/>
-            <SideBarGroups/>
+            <SideBarLocation />
+            <SideBarNote />
+            <SideBarGroups />
         </div>
     )
 }

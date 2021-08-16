@@ -4,7 +4,6 @@
   z-index: 99;
   /* border: 2px solid green; */
   width: 100vw;
-  /* overflow: hidden; */
 }
 
 .topbarLogo {
@@ -42,54 +41,50 @@ input:focus {
   /* color: red; */
 }
 
-.topbarCreateImgContainer{
+.topbarCreateImgContainer {
   /* border: 2px solid red; */
   display: none !important;
 }
 
-@media only screen and (max-width: 900px){
-
-  .topbar{
+@media only screen and (max-width: 900px) {
+  .topbar {
     height: 24px;
     width: 100vw;
     /* border: 2px solid red; */
   }
 
-  .topbarLogo{
+  .topbarLogo {
     display: none;
   }
 
-  .topbarSearch{
+  .topbarSearch {
     display: none !important;
     /* border: 2px solid red; */
   }
-  .topbarSearch input{
+  .topbarSearch input {
     display: none;
   }
-  #topbarSearchImg{
+  #topbarSearchImg {
     display: none;
   }
 
-  .topbarCreate{
+  .topbarCreate {
     /* border: 2px solid brown; */
-    /* position: absolute; */
-    /* right: 20px; */
     width: fit-content;
     padding: 0;
     margin-right: 7px;
   }
 
-  #topbarCreateTitle{
+  #topbarCreateTitle {
     display: none;
   }
-  #topbarCreateImg{
+  #topbarCreateImg {
     display: none;
   }
 
-  .topbarCreateImgContainer{
+  .topbarCreateImgContainer {
     display: flex !important;
     /* border: 2px solid red; */
     margin-right: 0px;
   }
-  
 }

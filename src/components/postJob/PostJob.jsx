@@ -6,7 +6,6 @@ import PostOptions from '../../images/postOptions.png'
 import share from '../../images/share.png'
 import locationIcon from '../../images/locationIcon.png'
 import ButtonsLarge from '../Buttons/ButtonsLarge';
-import { DropdownButton, Dropdown } from 'react-bootstrap';
 import { useState } from 'react';
 
 export default function PostJob({ postImage, postType, postTitle, profilePic, username, jobDescLogo, jobDescTag, jobLocationName, btnTxt, btnColor }) {
@@ -15,20 +14,20 @@ export default function PostJob({ postImage, postType, postTitle, profilePic, us
 
     const [c, setC] = useState('none')
 
-    const box = () =>{
+    const box = () => {
         setC('d')
     }
-    const closebox = () =>{
+    const closebox = () => {
         setC('none')
     }
 
 
-    const optionsHandler = () =>{
+    const optionsHandler = () => {
         setOptions(!options)
-        if(options){
+        if (options) {
             box();
             setOptions(false)
-        }else{
+        } else {
             closebox();
         }
     }
@@ -46,7 +45,7 @@ export default function PostJob({ postImage, postType, postTitle, profilePic, us
                             {postTitle}
                         </div>
                         <div className="postOptions">
-                            <img onClick={optionsHandler} src={PostOptions} />
+                            <img onClick={optionsHandler} src={PostOptions} alt="" />
                             <div className={`${c} p-2`}>
                                 <div className="containOpt p-2">
                                     <div className="bb p-1">Edit</div>
@@ -79,7 +78,7 @@ export default function PostJob({ postImage, postType, postTitle, profilePic, us
 
                     <ButtonsLarge
                         text={btnTxt}
-                        btnColor={btnColor} onclicks={false}/>
+                        btnColor={btnColor} onclicks={false} />
                     <div className="mydiv d-flex align-items-center">
                         <div className="container-fluid detail d-flex align-items-center">
                             <div className="Jleft d-flex align-items-center">
@@ -94,9 +93,6 @@ export default function PostJob({ postImage, postType, postTitle, profilePic, us
                                         <img src={views} alt="" />
                                         1.4k views
                                     </div>
-                                    {/* <div className="share bg-gray d-flex justify-content-center align-items-center">
-                                    <img src={share} alt="" />
-                                </div> */}
                                 </div>
                             </div>
                         </div>

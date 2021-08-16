@@ -7,8 +7,6 @@
 }
 
 .modalContainerLeft input:focus {
-  /* border: rgba(217, 217, 219, 1); */
-  /* outline: rgba(217, 217, 219, 1); */
   border: none;
   outline: none;
 }
@@ -34,9 +32,6 @@
 }
 
 @media only screen and (max-width: 990px){
-  /* .myC{
-    width: 111%;
-  } */
   .myS{
     width: 100%;
   }
@@ -71,16 +66,10 @@
 }
 
 @media only screen and (max-width: 500px) {
-  
-
   .modalContainerLeft{
     /* border: 2px solid red; */
     width:180%;
   }
-
-
-
- 
 }
 @media only screen and (max-width: 450px) {
   
@@ -90,6 +79,7 @@
     max-width:130%;
   }
 }
+
 @media only screen and (max-width: 330px) {
   
 

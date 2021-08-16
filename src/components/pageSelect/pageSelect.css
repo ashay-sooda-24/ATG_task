@@ -1,5 +1,4 @@
 .cont {
-  /* margin-top: 38vh; */
   position: sticky;
   top: 8vh;
   /* border: 2px solid black; */
@@ -7,15 +6,6 @@
   background-color: white;
 }
 
-/* .cont2{
-    display: none !important;
-    margin-top: 38vh;
-    position: sticky;
-    top: 8vh;
-    z-index: 99;
-    background-color: white;
-
-} */
 .cont2 {
   display: none !important;
 }
@@ -50,13 +40,9 @@
   }
 
   .cont2 {
-    /* display: none; */
     display: flex !important;
-    /* margin-top: 28vh; */
     position: sticky;
     top: 3vh;
-    /* border: 2px solid black; */
-    
     z-index: 99;
     background-color: white;
     /* border: 2px solid brown; */

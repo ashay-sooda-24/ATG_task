@@ -6,8 +6,8 @@ import './home.css'
 export default function HomeP() {
     return (
         <div className="container p-0" id="contain">
-            <CenterCont/>
-            <Side/>
+            <CenterCont />
+            <Side />
         </div>
     )
 }
