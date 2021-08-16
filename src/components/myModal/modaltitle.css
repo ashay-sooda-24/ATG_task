@@ -20,8 +20,19 @@
   text-align: right;
 }
 
+ @media only screen and (max-width: 990px){
+  .myC{
+    width: 111%;
+  }
+  .myS{
+    width: 111%;
+  }
+}
+
 @media only screen and (max-width: 900px){
   .modalTitleRight{
     display: none !important;
   }
 }
+
+

@@ -7,9 +7,31 @@ import share from '../../images/share.png'
 import locationIcon from '../../images/locationIcon.png'
 import ButtonsLarge from '../Buttons/ButtonsLarge';
 import { DropdownButton, Dropdown } from 'react-bootstrap';
+import { useState } from 'react';
 
 export default function PostJob({ postImage, postType, postTitle, profilePic, username, jobDescLogo, jobDescTag, jobLocationName, btnTxt, btnColor }) {
 
+    const [options, setOptions] = useState(false)
+
+    const [c, setC] = useState('none')
+
+    const box = () =>{
+        setC('d')
+    }
+    const closebox = () =>{
+        setC('none')
+    }
+
+
+    const optionsHandler = () =>{
+        setOptions(!options)
+        if(options){
+            box();
+            setOptions(false)
+        }else{
+            closebox();
+        }
+    }
 
     return (
         <div className="postJob mt-3">
@@ -24,8 +46,14 @@ export default function PostJob({ postImage, postType, postTitle, profilePic, us
                             {postTitle}
                         </div>
                         <div className="postOptions">
-                            <img src={PostOptions} />
-
+                            <img onClick={optionsHandler} src={PostOptions} />
+                            <div className={`${c} p-2`}>
+                                <div className="containOpt p-2">
+                                    <div className="bb p-1">Edit</div>
+                                    <div className="bb my-2 p-1">Report</div>
+                                    <div className="bb p-1">Option 3</div>
+                                </div>
+                            </div>
                         </div>
 
                     </div>

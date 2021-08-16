@@ -32,7 +32,7 @@
 
 @media only screen and (max-width: 900px){
   .modal-content{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: absolute;
     top: 32vh;
     border-radius: 8px 8px 0px 0px;
@@ -48,8 +48,8 @@
     /* border: 2px solid red; */
     height: 10px;
     width: 10px;
-    top: 6vh;
-    left: 55vh;
+    top: 8vh;
+    left: 63vh;
     margin: -1.5rem 0.5rem -15px  !important;
     cursor: pointer;
   }
@@ -75,10 +75,24 @@
 }
 
 
-@media only screen and (max-width: 350px){
+@media only screen and (max-width: 360px){
 
   .btn-close {
-    top: 33vh;
-    left: 8vh;
+    top: 8vh;
+    left: 33vh;
+  }
+}
+@media only screen and (max-width: 310px){
+
+  .btn-close {
+    top: 4vh;
+    left: 34vh;
+  }
+}
+@media only screen and (max-width: 280px){
+
+  .btn-close {
+    top: 4vh;
+    left: 32vh;
   }
 }

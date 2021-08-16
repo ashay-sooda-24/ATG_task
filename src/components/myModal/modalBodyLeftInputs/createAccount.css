@@ -1,5 +1,5 @@
 .modalContainerLeft{
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .modalContainerLeft input{
@@ -19,7 +19,7 @@
 }
 
 .myC {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 185%;
   }
 
@@ -30,12 +30,12 @@
     }
   
     .modalContainerLeft{
-      border: 2px solid red;
+      /* border: 2px solid red; */
       width: 200%;
     }
   
     .modalContainerRight{
-      border: 2px solid yellow;
+      /* border: 2px solid yellow; */
     }
   
     .mobileCreate{

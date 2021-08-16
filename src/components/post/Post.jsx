@@ -1,11 +1,35 @@
 import React from 'react'
 import './post.css'
-import { Card } from 'react-bootstrap';
+import { Card, ModalBody } from 'react-bootstrap';
 import postOptions from '../../images/postOptions.png'
 import views from '../../images/views.png'
 import share from '../../images/share.png'
+import { useState } from 'react';
 
 export default function Post({ postImage, postType, postTitle, postDesc, profilePic, username }) {
+
+    const [options, setOptions] = useState(false)
+
+    const [c, setC] = useState('none')
+
+    const box = () =>{
+        setC('d')
+    }
+    const closebox = () =>{
+        setC('none')
+    }
+
+
+    const optionsHandler = () =>{
+        setOptions(!options)
+        console.log(options)
+        if(options){
+            box();
+            setOptions(false)
+        }else{
+            closebox();
+        }
+    }
 
     return (
         <div className="post mt-3">
@@ -20,7 +44,14 @@ export default function Post({ postImage, postType, postTitle, postDesc, profile
                             {postTitle}
                         </div>
                         <div className="postOptions">
-                            <img src={postOptions} />
+                            <img onClick={optionsHandler} src={postOptions} />
+                            <div className={`${c} p-2`}>
+                                <div className="containOpt p-2">
+                                    <div className="bb p-1">Edit</div>
+                                    <div className="bb my-2 p-1">Report</div>
+                                    <div className="bb p-1">Option 3</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 

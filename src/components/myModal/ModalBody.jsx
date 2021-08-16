@@ -31,7 +31,7 @@ export default function ModalBody() {
 
             </Switch> 
 
-            <div className="container-fluid p-0 modalContainerRight">
+            <div className="container-fluid mt-4 p-0 modalContainerRight">
                 <img src={modalImage} alt="" />
             </div>
         </div>

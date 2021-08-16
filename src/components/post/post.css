@@ -1,3 +1,34 @@
+.d {
+  position: absolute;
+  top: 22px;
+  border: 2px solid rgba(255, 255, 255, 1);
+  left: -135px;
+  background-color: white;
+  width: 160px;
+  height: 102px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.16);
+}
+
+.bb {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+
+  color: #000000;
+}
+
+.containOpt {
+  /* border: 2px solid red; */
+  width: 100%;
+}
+
+.none {
+  display: none;
+}
+
 .post {
   background: #ffffff;
   border: 1px solid #e0e0e0;
@@ -17,6 +48,7 @@
 }
 
 .postOptions {
+  position: relative;
   cursor: pointer;
 }
 
@@ -34,11 +66,9 @@
   /* border: 2px solid black; */
 }
 
-.share{
+.share {
   margin-top: 34px;
 }
-
-
 
 .username {
   /* border: 2px solid green; */
@@ -93,8 +123,6 @@
     line-height: 21px;
   }
 
-  
-
   #myPostType {
     /* border: 2px solid red; */
     width: 60px;
@@ -135,7 +163,6 @@
     line-height: 17px;
     /* border: 2px solid red; */
     margin-top: 0;
-
   }
 
   .postViews {
@@ -147,11 +174,11 @@
     /* margin-top: -10px;
     margin-right: 10%; */
   }
-  .postViews img{
-    margin-top: 0px ;
+  .postViews img {
+    margin-top: 0px;
   }
 
-  .detail{
+  .detail {
     /* border: 2px solid red; */
     display: flex !important;
     flex-direction: column !important;
@@ -161,10 +188,10 @@
     height: 8vh;
   }
 
-  .share{
-    margin-top: 48px ;
+  .share {
+    margin-top: 48px;
   }
-  .right{
+  .right {
     /* border: 2px solid black; */
     margin-right: 0;
     width: 100%;
@@ -180,8 +207,8 @@
   }
 }
 
-@media only screen and (max-width: 360px){
-  .right{
+@media only screen and (max-width: 360px) {
+  .right {
     /* border: 2px solid black; */
     margin-right: 0;
     width: 100%;

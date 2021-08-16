@@ -1,5 +1,5 @@
 .modalContainer{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-top: 24px;
 }
 
@@ -16,7 +16,7 @@
 
 
 .modalContainerRight img{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 100%;
     width: 100%;
 }
@@ -31,7 +31,7 @@
 @media only screen and (max-width: 900px){
     .modalContainerRight{
         display: none !important;
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
     .lgAcc{
         display: none;
@@ -41,7 +41,7 @@
     }
 
     .modalContainer{
-        border: 2px solid yellow;
+        /* border: 2px solid yellow; */
         
     }
     
