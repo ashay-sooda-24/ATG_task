@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ATG_task/static/css/main.e6b5b0a4.chunk.css",
+    "main.js": "/ATG_task/static/js/main.2ca4910c.chunk.js",
+    "main.js.map": "/ATG_task/static/js/main.2ca4910c.chunk.js.map",
+    "runtime-main.js": "/ATG_task/static/js/runtime-main.87839587.js",
+    "runtime-main.js.map": "/ATG_task/static/js/runtime-main.87839587.js.map",
+    "static/js/2.00b03a7c.chunk.js": "/ATG_task/static/js/2.00b03a7c.chunk.js",
+    "static/js/2.00b03a7c.chunk.js.map": "/ATG_task/static/js/2.00b03a7c.chunk.js.map",
+    "index.html": "/ATG_task/index.html",
+    "static/css/main.e6b5b0a4.chunk.css.map": "/ATG_task/static/css/main.e6b5b0a4.chunk.css.map",
+    "static/js/2.00b03a7c.chunk.js.LICENSE.txt": "/ATG_task/static/js/2.00b03a7c.chunk.js.LICENSE.txt",
+    "static/media/hero.css": "/ATG_task/static/media/mobileHero.54a170fc.png",
+    "static/media/modalImage.501bd11f.png": "/ATG_task/static/media/modalImage.501bd11f.png",
+    "static/media/postImage1.49fd6a86.png": "/ATG_task/static/media/postImage1.49fd6a86.png",
+    "static/media/postImage2.be989436.png": "/ATG_task/static/media/postImage2.be989436.png",
+    "static/media/postImage3.52fceff3.png": "/ATG_task/static/media/postImage3.52fceff3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.87839587.js",
+    "static/js/2.00b03a7c.chunk.js",
+    "static/css/main.e6b5b0a4.chunk.css",
+    "static/js/main.2ca4910c.chunk.js"
+  ]
+}
